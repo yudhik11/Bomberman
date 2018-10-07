@@ -28,7 +28,7 @@ Additional Specifications:
 		Bomberman 		: B
 		Enemy 			: E
 		explosion 		: e
-	    bomb            : counter(2,1,0)
+	    	bomb            	: counter(2,1,0)
 
 Features implemented :
 	# INHERITENCE : There is good use of inheritence. Enemy as well as the bomberman inherit their movement functions from the person class. There are instances of various functions being inherited from the board class in different classes.
