@@ -12,8 +12,8 @@ class Board():
                 elif (i % 4) < 2 and (j % 8 < 4):
                     s[i][j] = 1
         self.ptbrd(s, bm, score)
+    
     # prints the board
-
     def ptbrd(self, s, bm, score):
         cnt = 0
         for i in range(0, 34):
